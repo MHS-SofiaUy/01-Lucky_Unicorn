@@ -1,10 +1,4 @@
-# Ask users for a number
-get_number = int(input("Choose a number?"))
+# Count up from one to 10 ... 
 
-# Multiply the number by five
-times_five = get_number * 5
-
-answer = print(" {} times five is equal to {}".format(get_number, times_five ))
-
-# Output the result
-print (answer)
+for item in range(1, 10 + 6):
+    print(item)
