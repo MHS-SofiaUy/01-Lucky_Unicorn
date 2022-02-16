@@ -2,7 +2,7 @@
 get_number = (input("Choose a number?"))
 
 # Multiply the number by five
-times_five = get_number * 1000000 
+times_five = get_number * 100
 
 answer = print(" {} times five is equal to {}".format(get_number, times_five ))
 
