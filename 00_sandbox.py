@@ -1,6 +1,9 @@
-# Count down from one to 10 ... 
+# Get name until an exit code is entered...
 
-greeting = "ed sheeran"
+name = ""
+while name.lower() != "ed sheeran":
+    name = input ("Who are you?")
+    print(name)
 
-for letter in greeting:
-    print(letter)
+print()
+print("We are DONE WITH YOUR ED SHEERAN OBSESSION")
